@@ -1,0 +1,10 @@
+for block in range(5, 0, -1):
+
+    for row in range(block):
+
+        for star in range(5):
+            print("*", end="")
+
+        print()
+
+    print()
